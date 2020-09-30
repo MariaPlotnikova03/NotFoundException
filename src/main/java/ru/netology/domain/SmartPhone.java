@@ -5,7 +5,6 @@ import lombok.EqualsAndHashCode;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-
 public class SmartPhone extends Product {
     private String manufacturer;
 
