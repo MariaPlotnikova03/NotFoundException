@@ -28,6 +28,7 @@ class ProductManagerTest {
         manager.add(smartphone2);
         manager.add(smartphone3);
     }
+
     @Test
     public void shouldSearchByNameBook() {
 
@@ -78,7 +79,6 @@ class ProductManagerTest {
         Product[] expected = new Product[]{book1};
         assertArrayEquals(expected, actual);
     }
-
 
 
 }
