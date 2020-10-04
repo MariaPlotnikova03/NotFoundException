@@ -16,7 +16,7 @@ public class ProductTest {
 
     @Test
     public void shouldMatchesByNameInvalid() {
-        String text = "Men`s T-short";
+        String text = " Women`s T-short";
         assertFalse(product1.matches(text));
     }
 }
